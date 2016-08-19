@@ -1,0 +1,20 @@
+{
+  "name": "@tradle/ws-operator",
+  "version": "1.0.0",
+  "description": "network operator for tradle node to simplify network connection management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mark Vayngrib <mark@tradle.io> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "dependencies": {
+    "@tradle/engine": "^2.4.1",
+    "debug": "^2.2.0",
+    "re-emitter": "^1.1.3",
+    "sendy": "^2.2.0",
+    "sendy-axolotl": "^1.0.1",
+    "sendy-ws": "^1.4.0"
+  }
+}
